@@ -61,3 +61,8 @@
    - `learning-way.xlsx`
    - `textbook.xlsx`
 -->
+
+## 탐색적 데이터 분석(EDA)
+### encykorea
+
+## 시행착오(Trial and Error)

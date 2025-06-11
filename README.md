@@ -64,5 +64,6 @@
 
 ## 탐색적 데이터 분석(EDA)
 ### encykorea
+![](/src/encykorea-eda-1.png)
 
 ## 시행착오(Trial and Error)

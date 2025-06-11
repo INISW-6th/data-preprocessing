@@ -31,7 +31,7 @@
 |   ├── encykorea.json
 |   ├── learning-way.json
 |   └── textbook.json
-├──  raw/   # 수집한 원본 또는 정형 데이터
+└──  raw/   # 수집한 원본 또는 정형 데이터
     ├── encykorea / # 민족대백과 API를 통한 수집 결과
     |   ├── encykorea(1).xlsx
     |   ├── encykorea(2).xlsx

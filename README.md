@@ -17,20 +17,21 @@
    - tabular 데이터를 메타데이터를 포함하여 `.json`으로 변환한다.
 
 ## 파일 구조
-- code
-    - `crawler-encykorea.ipynb`
-    - `metadata-board.ipynb`
-    - `metadata-encykorea.ipynb`
-    - `metadata-learning-way.ipynb`
-    - `metadata-textbook.ipynb`    
-- data
-    - `encykorea.json`
-    - `board.json`
-    - `encykorea.json`
-    - `learning-way.json`
-    - `textbook.json` 
-- raw
-    - `encykorea.xlsx`
-    - `board.xlsx`
-    - `learning-way.xlsx`
-    - `textbook.xlsx` 
+├── code
+│   ├── `crawler-encykorea.ipynb`
+│   ├── `metadata-board.ipynb`
+│   ├── `metadata-encykorea.ipynb`
+│   ├── `metadata-learning-way.ipynb`
+│   ├── `metadata-textbook.ipynb`    
+├── data
+│   ├── `encykorea.json`
+│   ├── `board.json`
+│   ├── `encykorea.json`
+│   ├── `learning-way.json`
+│   ├── `textbook.json` 
+├── raw
+│   ├── `encykorea.xlsx`
+│   ├── `board.xlsx`
+│   ├── `learning-way.xlsx`
+│   ├── `textbook.xlsx`
+└── `README.md`

@@ -27,7 +27,7 @@
    - `metadata-textbook.ipynb`    
 - data: 전처리 완료된 데이터
    - `board.json`
-   - `encykorea.json`
+   - `encykorea(1~5).json`
    - `learning-way.json`
    - `textbook.json` 
 - raw: 원본 또는 정형 데이터

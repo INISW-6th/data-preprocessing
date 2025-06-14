@@ -64,8 +64,19 @@
 -->
 
 ## 탐색적 데이터 분석(EDA)
-### encykorea
+### 교과서
+주제별 본문 길이 분석
+![](/src/textbook-eda-1.png)
+![](/src/textbook-eda-2.png)
+
+대단원별 단어 분포 분석(워드클라우드)
+![](/src/textbook-wordcloud.png)
+
+
+### 한국민족문화대백과사전
+키워드 기반으로 수집한 문서의 길이 분석
 ![](/src/encykorea-eda-1.png)
+
 
 ## 시행착오(Trial and Error)
 1. 메테데이터 형식 변환

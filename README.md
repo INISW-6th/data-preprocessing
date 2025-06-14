@@ -23,26 +23,31 @@
 ```
 ├── code/   # 수집 및 전처리 코드
 |   ├── crawler-encykorea.ipynb
-|   ├── metadata-board.ipynb
-|   ├── metadata-encykorea.ipynb
+|   ├── eda-textbook-statistics.ipynb
+|   ├── eda-textbook-wordcloud.ipynb
+|   ├── metadata-board.ipynb ❌
+|   ├── metadata-encykorea.ipynb ❌
 |   ├── metadata-learning-way.ipynb
-|   └── metadata-textbook.ipynb
+|   ├── metadata-textbook.ipynb
+|   └── scraper-textbook.ipynb
 ├── data/   # 전처리 완료된 데이터
 |   ├── board.json
 |   ├── encykorea.json
 |   ├── learning-way.json
 |   └── textbook.json
-└── raw/    # 수집한 원본 또는 정형 데이터
-    ├── encykorea/ # 민족대백과 API를 통한 수집 결과
-    |   ├── encykorea(1).xlsx
-    |   ├── encykorea(2).xlsx
-    |   ├── encykorea(3).xlsx
-    |   ├── encykorea(4-1).xlsx
-    |   ├── encykorea(4-2).xlsx
-    |   └── encykorea(5).xlsx
-    ├── board.xlsx
-    ├── learning-way.xlsx
-    └── textbook.xlsx
+├── raw/    # 수집한 원본 또는 정형 데이터
+|   ├── encykorea/ # 민족대백과 API를 통한 수집 결과
+|   |   ├── encykorea(1).xlsx
+|   |   ├── encykorea(2).xlsx
+|   |   ├── encykorea(3).xlsx
+|   |   ├── encykorea(4).xlsx
+|   |   ├── encykorea(5).xlsx
+|   |   └── encykorea(6).xlsx
+|   ├── board.xlsx ❌
+|   ├── learning-way.xlsx
+|   └── textbook.xlsx ❌
+└── trial/  # 시행착오
+    └── keywords.ipynb
 ```
 <!--
 - code: 수집 및 전처리 코드
@@ -85,4 +90,5 @@
 
 2. 키워드 추출 방법 모색
 - TF-IDF, NER, Key BERT 등 다양한 알고리즘을 사용해 키워드 추출을 진행했지만, 문맥이 반영되지 않아 만족스러운 결과물을 얻지 못했습니다.
-- 교과서 한 권의 전체 분량이 약 200~300페이지 이기에, 각 주제별로 데이터 라벨링을 진행하는 것이 더 효과적이라고 판단해 수기로 키워드를 추출했습니다. 
+- 교과서 한 권의 전체 분량이 약 200~300페이지 이기에, 각 주제별로 데이터 라벨링을 진행하는 것이 더 효과적이라고 판단해 수기로 키워드를 추출했습니다.
+- 시행착오 과정의 코드는 `/trial/keywords.ipynb`에서 확인 가능합니다.

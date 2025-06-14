@@ -70,7 +70,7 @@
 ![](/src/textbook-eda-2.png)
 
 대단원별 단어 분포 분석(워드클라우드)
-![](/src/textbook-wordcloud.png)
+![](/src/textbook-wordcloud.jpg)
 
 
 ### 한국민족문화대백과사전

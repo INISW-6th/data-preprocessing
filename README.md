@@ -43,9 +43,9 @@
 |   |   ├── encykorea(4).xlsx
 |   |   ├── encykorea(5).xlsx
 |   |   └── encykorea(6).xlsx
-|   ├── board.xlsx ❌
+|   ├── board.xlsx
 |   ├── learning-way.xlsx
-|   └── textbook.xlsx ❌
+|   └── textbook.xlsx
 └── trial/  # 시행착오
     └── keywords.ipynb
 ```

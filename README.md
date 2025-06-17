@@ -25,8 +25,8 @@
 |   ├── crawler-encykorea.ipynb
 |   ├── eda-textbook-statistics.ipynb
 |   ├── eda-textbook-wordcloud.ipynb
-|   ├── metadata-board.ipynb ❌
-|   ├── metadata-encykorea.ipynb ❌
+|   ├── metadata-board.ipynb
+|   ├── metadata-encykorea.py
 |   ├── metadata-learning-way.ipynb
 |   ├── metadata-textbook.ipynb
 |   └── scraper-textbook.ipynb
